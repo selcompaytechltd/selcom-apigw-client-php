@@ -1,0 +1,19 @@
+{
+    "name": "selcom/selcom-apigw-client",
+    "description": "Library to helo access selcom apis",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dev",
+            "email": "dev@selcom.net"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "apigwClient\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
