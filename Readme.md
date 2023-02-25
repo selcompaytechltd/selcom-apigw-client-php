@@ -12,8 +12,7 @@ computeHeader
 
 ## Installation
 
-composer require something/something
-
+composer require selcom/selcom-apigw-client
 ## Usage
 ```php
 require_once __DIR__ .'/vendor/autoload.php';
