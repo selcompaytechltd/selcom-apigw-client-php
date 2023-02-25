@@ -7,21 +7,20 @@ namespace Composer\Autoload;
 class ComposerStaticInit1dc55e0b328e4ca760e4d9c686a045b7
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'a' => 
         array (
-            'AccessFunctions\\' => 16,
+            'apigwClient\\' => 12,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'AccessFunctions\\' => 
+        'apigwClient\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/AccessFunctions',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'AccessFunctions\\apiAccess' => __DIR__ . '/../..' . '/src/AccessFunctions/apiAccess.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

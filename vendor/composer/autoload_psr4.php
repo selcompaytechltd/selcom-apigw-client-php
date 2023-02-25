@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AccessFunctions\\' => array($baseDir . '/src/AccessFunctions'),
+    'apigwClient\\' => array($baseDir . '/src'),
 );

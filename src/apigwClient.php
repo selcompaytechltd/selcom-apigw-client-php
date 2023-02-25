@@ -1,5 +1,5 @@
 <?php
-namespace apigwClient;
+namespace Selcom\ApigwClient;
 class Client{
     protected String $baseUrl;
     protected String $apiKey;

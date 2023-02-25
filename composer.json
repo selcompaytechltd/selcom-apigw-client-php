@@ -11,7 +11,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "apigwClient\\": "src/"
+            "Selcom\\ApigwClient\\": "src/"
         }
     },
     "minimum-stability": "stable",
