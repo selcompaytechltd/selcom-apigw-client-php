@@ -6,6 +6,9 @@
 
 </p >
 
+## Homepage
+https://developers.selcommobile.com/
+
 ## Description
 This is a library containing functions that aid in the accessing of selcom api. IT is made up pf 4 functions.
 computeHeader 
