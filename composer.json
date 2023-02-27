@@ -1,7 +1,7 @@
 {
     "name": "selcom/selcom-apigw-client",
     "description": "Client library to help access selcom apis",
-    "license": "MIT",
+    "license": "",
     "authors": [
         {
             "name": "dev",
