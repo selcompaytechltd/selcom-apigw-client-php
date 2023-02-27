@@ -17,7 +17,7 @@ composer require selcom/selcom-apigw-client
 ```php
 require_once __DIR__ .'/vendor/autoload.php';
 // use modeule
-use apigwClient\Client ;
+use Selcom\ApigwClient\Client;
 //iniiatialize new Client with values of the base url, api key and api secret
 $client = new Client($baseUrl, $apiKey, $apiSecret);
 // computeHeader takes an array containing data to bes submitted
@@ -47,7 +47,7 @@ $client->deleteFunc($path, $arrayData)
 require_once __DIR__ .'/vendor/autoload.php';
 
 // 
-use apigwClient\Client ;
+use Selcom\ApigwClient\Client;
 
 # initalize a new apiAccess instace with values of the base url, api key and api secret
 
@@ -65,7 +65,7 @@ $orderArray = array(
 "order_id"=>"1218d5Qb",
 "buyer_email"=> "john@example.com",
 "buyer_name"=> "John Joh",
-"buyer_phone": "255682555555",
+"buyer_phone"=> "255682555555",
 "amount"=>  8000,
 "currency"=>"TZS",
 "buyer_remarks"=>"None",
