@@ -9,10 +9,9 @@
         }
     ],
     "type": "library",
-    "autoload": {
-        "psr-4": {
+    "autoload":
             "files": ["src/apigwClient.php"]
-        }
+        
     },
     "minimum-stability": "stable",
     "require": {}
