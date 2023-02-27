@@ -1,6 +1,6 @@
 {
     "name": "selcom/selcom-apigw-client",
-    "description": "Library to helo access selcom apis",
+    "description": "Client library to help access selcom apis",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "type": "library",
-    "autoload":
+    "autoload":{
             "files": ["src/apigwClient.php"]
         
     },
