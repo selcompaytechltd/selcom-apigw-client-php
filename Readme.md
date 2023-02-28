@@ -1,4 +1,4 @@
-<h1 align="center">SELCOM API ACCESS CLIENT</h1>
+# SELCOM API ACCESS CLIENT
 
 <p align='center'>
 
@@ -56,7 +56,7 @@ use Selcom\ApigwClient\Client;
 
 $apiKey = '202cb962ac59075b964b07152d234b70';
 $apiSecret = '81dc9bdb52d04dc20036dbd8313ed055';
-$baseUrl = "http://example.com/v1/checkout/";
+$baseUrl = "http://example.com";
 
 
 $client = new Client($baseUrl, $apiKey, $apiSecret);
@@ -78,7 +78,7 @@ $orderArray = array(
 )
 
 // path relatiive to base url
-$orderPath = "create-order-minimal"
+$orderPath = "/v1/checkout/create-order-minimal"
 // crate new order
 
 $response = $client->postFunc($orderPath,$orderArray);
