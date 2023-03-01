@@ -1,4 +1,4 @@
-# SELCOM API ACCESS CLIENT
+# Selcom API Gateway Client - PHP
 
 <p align='center'>
 
